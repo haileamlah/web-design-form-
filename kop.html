@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+ <html>
+<table cellspacing="10px">
+   <tr>
+     <th>
+    <head>
+      <title>reservation request</title>
+      <meta charset="utf-8">
+  <style>
+       fieldset{
+             boarder="1px solid"
+       }
+        .body-container{
+             width: 30%;
+                }
+    </style>
+     </head>
+   <body>
+     <h1>Reservation request</h1>
+    <div class="body-container">
+     <form>
+       <fieldset padding:10px; width:5px>
+         <legend>General information</legend>
+            <lable for="date">arrive date</lable><input type="date" id="date" name="date"><br>
+            <lable for="nights">nights</lable><input type="number" id="nights" name="nights"><br>
+            <lable for="adults">adults :</lable>
+              <select id="adults">
+                 <option value="1">1</option>
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+                 <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                 <option value="8">8</option>
+                 <option value="9">9</option>
+                 <option value="10">10</option>
+              </select><br>
+           <lable for="childrens">childrens :</lable>
+              <select id="childrens">
+                 <option value="1">1</option>
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+                 <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                 <option value="8">8</option>
+                 <option value="9">9</option>
+                 <option value="10">10</option>
+               </select>
+            </fieldset><br>
+           </form>
+       </div>
+           
+                 <div class="body-container">
+               <form>
+                 <fieldset width="30%">
+                   <legend>preferences</legend>
+                  <lable for="room type">room type:</lable>
+                     <input type="radio" id="room type" name="room type" value="standard"/>standard
+                     <input type="radio" id="room type" name="room type" value="business"/>business
+                     <input type="radio" id="roo type" name="roo type" value="suite"/>suite<br>
+                  <lable for="bed type">bed type:</lable>
+                     <input type="radio" id="bed type" name="bed type" value="king"/>king
+                     <input type="radio" id="bed type" name="bed type" value="double double"/>double double<br>
+                 <lable for="smoking">smoking</lable>
+                      <input type="checkbox" id="smoking" name="smoking">
+    
+                </fieldset><br>
+              </form>
+         </div>
+
+<div class="body-container">
+    
+ <form>
+   <fieldset width="10%">
+   <legend>contact information</legend>
+<lable for="name">Name</lable>
+   <input type="text" id="name" name="name" max length="15" minlength="2" required placeholder="enter your name"><br>
+<lable for="email">email</lable>
+   <input type="email" id="email" name="email" placeholder="enter your email adrees" required><br>
+<lable for="phone">phone number</lable>
+     <input type="number" id="phone" name="phone" required><br>
+    </fieldset>
+</form>
+      
+     <form>
+        <input type ="submit" width="80px" value="submit reservation">
+       <input type="submit" width="30px" value="clear">
+     </form>
+</div>
+
+</th>
+
+<th align="right" font-size="5px" cellpadding="90px">
+<head>
+ <meta charset="utf-8">
+    <style>
+         .body-container1{
+                    width:100px;
+}
+          .body-container2{
+                    width:100px;
+}
+           .body-container3{
+                   width:100px;
+}
+
+
+      </style>
+   </head>
+   <body>
+   <h1> fill the forms below to requst service</h1><br>
+ 
+       <form>
+          <ul>
+            <li><lable for="name">Name:</lable>
+                     <input type="text" id="name" name="name"></li>
+            <li><lable for="tel">tel:</lable>
+                   <input align:right type="text" id="tel" name="tel"></li>
+            <li><lable for="email">email</lable>
+                    <input align:right type="email" id="email" name="email"></li>
+            <li><lable for="adress">Adress:</lable>
+                   <input type="text" id="adress" name="adress"><li>
+            <li><lable for="towncity">Town/city:</lable>
+                   <input type="text" id="towncity" name="towncity"></li>
+            <li><lable for="postcode">postcode:</lable>
+                   <input type="text" id="postcode" name="postcode"></li>
+         </ul>
+       </form>
+  
+
+             <h1>*registration field</h1>
+  <table cellspacing="80px">
+      <tr>
+<th>
+<div class="body-container1">
+          <form>
+              <fieldset>
+                  <legend>toppings</legend>
+             <ul type="circle">
+               <li><lable for="magentis">mehagentis</lable></li>
+                 
+                <li><lable for="four seasons">sour seasons</lable></li>
+               
+                <li><lable for="meat frest">meat frest</lable></li>
+             </ul>
+                </fieldset>
+           </form>
+ </div>
+</th>
+
+<th>
+
+<div class="body-container2">
+  
+           <form>
+              <fieldset>
+                 <legend>size</legend>
+              <ul type="circle">
+                  <li><lable for="small">samll</lable></li>
+                  <li><lable for="medium">medium</lable></li>
+                  <li><lable for="large">large</lable></li>
+               </ul>
+              </fieldset>
+            </form>
+</div>
+</td>
+
+<th>
+      <div class="body-container2">
+          <form>
+             <fieldset>
+                <legend>extras</legend>
+               <ul type="rect">
+                 <li><lable for="mushrooms">mushrooms</lable>
+                 <li><lable for="greenpepers">greenpapers</lable>
+                 <li><lable for="anchovers">anchovers</lable>
+                 <li><lable for="extra choice">extra choice</lable>
+               <ul>
+            </fieldset>   
+         </form>
+</div>
+</th>
+</tr>
+</table>
+
+           <form>
+         <lable for="time">choose deliver time</lable>
+              <input type="time" name="time" value="time">
+         </form>
+
+       <form>
+         <lable for="instructions">instructions:</lable>
+              <textarea id="instructions" name="instructions" rows="6" cols="29"></textarea>
+         <input type="button" name="submit" value="submit">
+        </form>
+</th>
+</tr>
+</table>
+         
+ </body>
+</html>
